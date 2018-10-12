@@ -16,6 +16,14 @@
     "lib": [
       "es2017",
       "dom"
-    ]
+    ],
+    "paths": {
+      "NgxRouterMenu": [
+        "dist/ngx-router-menu"
+      ],
+      "NgxRouterMenu/*": [
+        "dist/ngx-router-menu/*"
+      ]
+    }
   }
 }
